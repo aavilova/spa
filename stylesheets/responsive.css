@@ -1,0 +1,574 @@
+@media all and (max-width: 1024px) {
+  nav a {
+    font-size: 3.4vw;
+    line-height: 5.8vw;
+  }
+  h1 {
+    padding-top: 26vw;
+  }
+  h4 {
+    margin-top: .6vw;
+    font-size: 3vw;
+    line-height: 3.4vw;
+  }
+  #border {
+    top: 96%;
+  }
+  #m1 {
+    margin-top: 4vw;
+  }
+  .event {
+    padding-top: 10vw;
+  }
+  .afleft {
+    width: 45vw;
+  }
+  .pic img {
+    width: 32vw;
+  }
+  .item {
+    margin-right: 10vw;
+    width: 32vw;
+  }
+  .itempage {
+    margin-right: 10vw;
+    width: 32vw;
+    height: 50vw;
+  }
+  .shop {
+    padding-top: 8vw;
+  }
+  .fakeshop {
+    height: 223vw;
+  }
+  .price {
+    font-size: 1.8vw;
+    margin-top: 1vw;
+  }
+  .cartb {
+    margin-top: 2vw;
+    width: 15vw;
+    height: 3.5vw;
+    font-size: 1.4vw;
+  }
+  .description {
+    font-size: 2vw;
+    padding-top: 52vw;
+    line-height: 2.6vw;
+  }
+  .buttonaf {
+    font-size: 1.4vw;
+    width: 20vw;
+    height: 4.5vw;
+    position: absolute;
+    top: 65vw;
+  }
+  .date, .date3 {
+    top: 68.5vw;
+    left: 78vw;
+  }
+  .poster3 {
+    top: 85vw;
+  }
+  .date2 {
+    margin-top: 24vw;
+  }
+  .b2 {
+    top: 65vw;
+    left: 43.8vw;
+  }
+  .afleft {
+    width: 36vw;
+  }
+  .eventl {
+    padding-top: 10vw;
+    margin-left: 43.8vw;
+  }
+  .dh3l {
+    margin-left: 43.8vw;
+  }
+  .afright {
+    width: 36vw;
+    margin-left: 43.8vw;
+  }
+  .poster1, .poster2, .poster3, .poster4, .poster5, .poster6 {
+    width: 35vw;
+  }
+  .poster1, .poster4{
+    left: 63vw;
+  }
+  .poster2, .poster5 {
+    top: 25vw;
+    left: 41vw;
+  }
+  .poster3 {
+    top: 10.5vw;
+    left: 2.105vw;
+  }
+  .back {
+    top: 7vw;
+  }
+  .itemimg {
+    width: 38vw;
+    margin-top: 22vw;
+  }
+  .desc2 {
+    margin-top: 22vw;
+    margin-left: 8vw;
+  }
+  .fulldesc {
+    width: 45vw;
+  }
+  .cartitem {
+    top: 67vw;
+  }
+}
+@media all and (min-width: 769px) {
+  .column {
+    display: none;
+  }
+  .forwidth768 {
+    display: none;
+  }
+}
+@media all and (max-width: 768px) {
+  .fordesktop1, .fordesktop {
+    display: none;
+  }
+  #border {
+    top: 98%;
+  }
+  nav a {
+    font-size: 3.646vw;
+  }
+  article {
+    padding-left: 2.604vw;
+  }
+  h1 {
+    padding-top: 52vw;
+    font-size: 13.7vw;
+  }
+  h3 {
+    font-size: 3.906vw;
+    line-height: 110%;
+  }
+  h4 {
+    font-size: 4.167vw;
+    line-height: 4.948vw;
+  }
+  .scrollstroke img {
+    width: 10vw;
+  }
+  .column1, .column2 {
+    display: none;
+  }
+  #m1 {
+    width: 94.010vw;
+    border: 0.091vw solid #B3B3B3;
+    margin-top: 2.604vw;
+  }
+  .footer {
+    margin-top: 18vw;
+  }
+  .column {
+    width: 94.010vw;
+  }
+  .block_1 {
+    width: 100%;
+    padding-bottom: 8vw;
+    border-bottom: 0.091vw solid #B3B3B3;
+    margin-top: 0;
+  }
+  .block_2 {
+    width: 100%;
+    padding-bottom: 2vw;
+    margin-top: 0;
+  }
+  .desc, .ch2, .ch3 {
+    margin: 3.255vw;
+  }
+  .ch2 {
+    font-size: 6.250vw;
+    line-height: 100%;
+  }
+  .ch3 {
+    font-size: 5.208vw;
+  }
+  .desc {
+    width: 87.240vw;
+    font-size: 3.646vw;
+    line-height: 4.948vw;
+  }
+  .c2 p, .c2 h6 {
+    margin-left: 2vw;
+    font-size: 2.4vw;
+    line-height: 3.646vw;
+  }
+  .c1 p, .c1 h6 {
+    font-size: 2.4vw;
+    line-height: 3.646vw;
+  }
+  .fp p {
+    font-size: 2.4vw;
+    margin-left: 26vw;
+  }
+  .interactiveposters {
+    flex-direction: row;
+    margin-left: 17vw;
+  }
+  .interactiveposters a{
+    margin-left: 7vw;
+    font-size: 3vw;
+    line-height: 4.948vw;
+    opacity: 1;
+  }
+  .description {
+    flex-direction: column;
+  }
+  .description p {
+    width: 82.031vw;
+    font-size: 3.646vw;
+    line-height: 4.948vw;
+  }
+ .fordesktop {
+    display: none;
+  }
+  .date, .date3 {
+    top: 12vw;
+    left: 0;
+    font-size: 8.333vw;
+  }
+  .date2 {
+    margin-top: 12vw;
+    margin-left: 73.5vw;
+    font-size: 8.333vw;
+  }
+  .poster1, .poster4 {
+    left: 0;
+    top: 46vw;
+    width: 54vw;
+  }
+  .poster3 {
+    top: 46vw;
+    left: 41vw;
+    width: 54vw;
+  }
+  .event {
+    padding-top: 27vw;
+    font-size: 6.250vw;
+    line-height: 6.250vw;
+  }
+  .eventl {
+    margin-top: 4.5vw;
+    margin-left: 41.5vw;
+    font-size: 6.250vw;
+  }
+  .dh3l, .afright {
+    margin-left: 0;
+  }
+  .dh3l {
+    font-size: 3.646vw;
+    padding-top: 4vw;
+  }
+  .dh3 {
+    font-size: 3.646vw;
+    padding-left: 58vw;
+  }
+  .dh31 {
+    font-family: CSTM_Xprmntl_02_Italic;
+    padding-top: 6vw;
+    font-size: 3.646vw;
+    padding-left: 58vw;
+    text-transform: uppercase;
+  }
+  .afright {
+    width: 37vw;
+    padding-top: 2vw;
+    font-size: 2.865vw;
+    line-height: 3.646vw;
+  }
+  .afleft  {
+    width: 37vw;
+    padding-top: 2vw;
+    margin-left: 58vw;
+    font-size: 2.865vw;
+    line-height: 3.646vw;
+  }
+  .buttonaf {
+    position: absolute;
+    width: 31.250vw;
+    height: 6.510vw;
+    font-size: 2.344vw;
+    left: 58vw;
+    top: 109.5vw;
+  }
+  .b3 {
+    position: absolute;
+    left: 0;
+    top: 109.5vw;
+  }
+  .even {
+    padding-top: 52.083vw;
+  }
+  .even1 {
+    padding-top: 18.229vw;
+  }
+  .item_ {
+    margin-top: 32.552vw;
+  }
+  .pic img {
+    width: 45.573vw;
+  }
+  .price {
+    font-size: 2.344vw;
+  }
+  .cartb {
+    width: 23.438vw;
+    height: 5.859vw;
+    font-size: 2.344vw;
+    margin-top: 5vw;
+  }
+  .underhead {
+    font-size: 3.385vw;
+  }
+  .fulldesc {
+    font-size: 2.344vw;
+    line-height: 3.2vw;
+  }
+  .back {
+    top: 7.5vw;
+  }
+  .back img {
+    width: 10vw;
+  }
+  .backp {
+    font-size: 3.125vw;
+    padding-top: 1vw;
+  }
+  .itemimg, .desc2 {
+    margin-top: 18vw;
+  }
+   .desc2 {
+    margin-left: 7.5vw;
+  }
+  .cartitem {
+    position: absolute;
+    top: 66.2vw;
+    width: 23.438vw;
+    height: 5.859vw;
+    font-size: 2vw;
+  }
+  .image img {
+    width: 42vw;
+  }
+}
+@media all and (min-width: 415px) {
+ .hamburger_menu {
+  display: none;
+  }
+  .formobile, .forwidth375 {
+    display: none;
+  }
+}
+@media all and (max-width: 414px) {
+  .fullitem {
+    display: none;
+  }
+  .forwidth768, .forwidth768_1 {
+    display: none;
+  }
+  #border {
+    top: 92%;
+  }
+  .menu {
+    display: none;
+  }
+  .scrollstroke {
+    left: 43%;
+    top: 92.5%;
+  }
+  .scrollstrokemobile {
+    display: inline-block;
+    position: absolute;
+    left: 43%;
+    top: 164vw;
+  }
+  .scrollstrokemobile img {
+    width: 15vw;
+  }
+  .scrollstroke img {
+    width: 15vw;
+  }
+  nav {
+    height: 20vw;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 100%);
+  }
+  h1 {
+    padding-top: 77.333vw;
+  }
+  h3 {
+    font-size: 8vw;
+    line-height: 100%;
+  }
+  h4 {
+    font-size: 8vw;
+    line-height: 100%;
+  }
+  .underhead {
+    margin-top: 4vw;
+    font-size: 6.4vw;
+  }
+  .price {
+    margin-top: 4vw;
+    font-size: 6.4vw;
+  }
+  p {
+    font-size: 4.8vw;
+    line-height: 6.4vw;
+  }
+  .description p {
+    font-size: 4.8vw;
+    line-height: 6.4vw;
+  }
+  .column, #m1,  {
+    width: 89.333vw;
+  }
+  .ch2 {
+    font-size: 8vw;
+  }
+  .ch3 {
+    font-size: 6.4vw;
+  }
+  .desc {
+    font-size: 4.8vw;
+    line-height: 6.4vw;
+  }
+  .datem {
+    font-family: Oskal;
+    font-size: 12.267vw;
+    padding-top: 20vw;
+    color: #B3B3B3;
+  }
+  .eventm {
+    font-size: 8vw;
+    line-height: 100%;
+    margin-top: 8vw;
+  }
+  .poster {
+    width: 95vw;
+    padding-top: 22vw;
+  }
+  .dh3m {
+    font-size: 6.4vw;
+    font-family: CSTM_Xprmntl_02_Italic;
+    text-transform: uppercase;
+    margin-top: 6.667vw;
+  }
+  .af {
+    width: 93.333vw;
+    font-size: 4.8vw;
+    line-height: 6.4vw;
+    margin-top: 6.667vw;
+  }
+  .buttonmobile {
+    width: 48vw;
+    height: 10.667vw;
+    font-size: 4.267vw;
+    margin-left: 0;
+    margin-top: 30vw;
+    margin-bottom: 10vw;
+  }
+  .buttonmobile::after {
+    content: "купить билет";
+    display: block;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0.972vw;
+  }
+  .buttonmobileactive {
+    background: #920000;
+  }
+  .buttonmobileactive::after {
+    content: "куплено";
+  }
+  .cartb {
+    width: 48vw;
+    height: 10.667vw;
+    font-size: 4.267vw;
+    margin-top: 12vw;
+  }
+  .allitems {
+    display: inline-block;
+    justify-content: center;
+  }
+  .pic img {
+    width: 95vw;
+    margin-bottom: 1.333vw;
+  }
+  .item {
+    margin-top: 18vw;
+  }
+  .back {
+    top: 21.333vw;
+  }
+  .back img {
+    width: 14.667vw;
+  }
+  .back a {
+    font-size: 4.8vw;
+  }
+  .image img{
+    width: 95vw;
+  }
+  .itemimg {
+    margin-top: 30.667vw;
+  }
+  .desc2 {
+    margin-left: 0;
+    margin-top: 4vw;
+  }
+  .cartitem {
+    width: 48vw;
+    height: 10.667vw;
+    font-size: 4.267vw;
+    position: relative;
+    top: 0;
+    margin-top: 12vw;
+  }
+  .fulldesc {
+    margin-top: 10vw;
+    font-size: 4.8vw;
+    line-height: 6.4vw;
+    width: 95%;
+    margin-bottom: 10vw;
+  }
+  .cont {
+    flex-direction: column;
+  }
+  .c2 {
+    margin-left: 0;
+    margin-top: 12vw;
+  }
+  .footer {
+    margin-top: 25vw;
+  }
+  .footer h6, .footer p {
+    font-size: 3.733vw;
+    line-height: 140%;
+  }
+  .fp p {
+    margin-left: 16vw;
+    margin-top: 20vw;
+  }
+  .interactiveposters {
+    margin-top: 25vw;
+    margin-left: 10vw;
+  }
+  .interactiveposters a{
+    margin-left: 7vw;
+    font-size: 4vw;
+    line-height: 4.948vw;
+  }
+}

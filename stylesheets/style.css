@@ -1,0 +1,23 @@
+@import "reset.css";
+@import "layout.css";
+@import "responsive.css";
+@font-face {
+  font-family: 'CSTM_Xprmntl_02_Italic';
+  src: url('fonts/CSTM_Xprmntl_02_Italic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Oskal';
+  src: url('fonts/Oskal.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Mantonico_Light';
+  src: url('fonts/Mantonico_Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat_Light';
+  src: url('fonts/Montserrat_Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat_SemiBold';
+  src: url('fonts/Montserrat_SemiBold.ttf') format('truetype');
+}

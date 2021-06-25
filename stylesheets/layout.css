@@ -1,0 +1,656 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background: #101010;
+}
+nav a {
+  font-family: CSTM_Xprmntl_02_Italic;
+  font-size: 2.737vw;
+  line-height: 5.208vw;
+  color: #B3B3B3;
+  text-decoration: none;
+  margin: 2.431vw 2.778vw;
+}
+nav a:hover {
+  color: #CC3100;
+  transition: 0.5s;
+}
+nav {
+  width: 100%;
+  height: 6vw;
+  background: rgb(16,16,16);
+  background: linear-gradient(0deg, rgba(16,16,16,0) 0%, rgba(16,16,16,1) 40%, rgba(16,16,16,1) 100%);
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+ section {
+  height: 100%;
+  width: 100%;
+}
+.fordesktop {
+  height: 100%;
+  display: block;
+}
+article {
+  position: relative;
+  padding-left: 2.105vw;
+  height: 100%;
+  display: block;
+}
+button {
+  width: 16.667vw;
+  height: 3.472vw;
+  margin-top: 7vw;
+  border: .069vw solid #B3B3B3;
+  background: #101010;
+  font-family: Montserrat_Light;
+  font-size: 1.25vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: #B3B3B3;
+  cursor: pointer;
+}
+button:hover {
+  background: #920000;
+  transition: .5s;
+}
+p {
+  font-family: Mantonico_Light;
+  font-size: 1.6vw;
+  line-height: 2.4vw;
+  color:  #B3B3B3;
+}
+h1 {
+  height: 35vw;
+  padding-top: 14.474vw;
+  margin-left: .3vw;
+  font-family: Oskal;
+  font-size: 13.5vw;
+  line-height: 12.5vw;
+  text-align: center;
+  color:  #B3B3B3;
+}
+h2 {
+  font-family: Oskal;
+  font-size: 4.444vw;
+  line-height: 4.444vw;
+  text-transform: uppercase;
+  color: #B3B3B3;
+}
+h3 {
+  font-family: Mantonico_Light;
+  font-size: 2.8vw;
+  line-height: 3.333vw;
+  color: #B3B3B3;
+}
+h4 {
+  font-family: Oskal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.684vw;
+  line-height: 2.2vw;
+  text-transform: uppercase;
+  color: #B3B3B3;
+}
+#m1{
+  width: 94.444vw;
+  border: .069vw solid #B3B3B3;
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: row;
+}
+#second {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: fixed;
+}
+#background {
+  height: 100vh;
+}
+#border {
+  width: 100%;
+  height: 1vw;
+  position: absolute;
+  top: 92%;
+}
+.menu {
+display: flex;
+justify-content: space-between;
+}
+.about {
+  margin-right: 2.778vw;
+  margin-left: 0 auto;
+}
+.open {
+  color: #CC3100;
+  transition: .5s;
+}
+
+/* for description page */
+.description {
+  margin-right: 2.105vw;
+  justify-content: space-between;
+  padding-top: 24.5vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.description p {
+  width: 44vw;
+}
+.interactiveposters {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15vw;
+}
+.interactiveposters a {
+  font-family: CSTM_Xprmntl_02_Italic;
+  font-size: 2vw;
+  line-height: 4vw;
+  color: #B3B3B3;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left;
+  opacity: .7;
+}
+.interactiveposters a:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/* for main page */
+.scrollstroke {
+  display: inline-block;
+  position: absolute;
+  left: 48%;
+  top: 95%;
+}
+.scrollstroke img {
+  width: 5vw;
+}
+.column1 {
+  display: inline-block;
+  width: 50%;
+  border-right: .069vw solid #B3B3B3;
+}
+.column2{
+  display: inline-block;
+  width: 50%;
+}
+.ch2 {
+  margin-left: 1.389vw;
+  margin-top: 1.389vw;
+}
+.ch3 {
+  margin-left: 1.389vw;
+  margin-top: 1.389vw;
+}
+.block1 {
+  width: 47.222vw;
+  height: 25.347vw;
+}
+.block2 {
+  width: 47.222vw;
+  height: 15.972vw;
+}
+.line {
+  border-bottom: .069vw solid #B3B3B3;
+}
+.desc {
+  width: 43.056vw;
+  margin-top: 1.389vw;
+  margin-left: 1.389vw;
+}
+.footer {
+  margin-top: 6.944vw;
+}
+.footer h6 {
+  font-family: Montserrat_SemiBold;
+  font-size: 1.667vw;
+  line-height: 2.083vw;
+  color:#B3B3B3;
+}
+.fp p {
+  margin-left: 34.722vw;
+  margin-top: 7.639vw;
+  margin-bottom: 3.472vw;
+  font-family: Montserrat_Light;
+  font-size: 1.389vw;
+  line-height: 1.667vw;
+  color:#B3B3B3;
+}
+.cont p {
+  margin-top: 2.083vw;
+  font-family: Montserrat_Light;
+  font-size: 1.389vw;
+  line-height: 1.667vw;
+  color:#B3B3B3;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+}
+.c2 {
+  margin-left: 17vw;
+}
+
+/* for affiche page */
+.b2 {
+  position: absolute;
+  left: 41vw;
+  top: 39.5vw;
+}
+.event {
+  padding-top: 6.5vw;
+}
+.eventl {
+  margin-left: 40.972vw;
+  padding-top: 6.5vw;
+}
+.dh3 {
+  font-size: 2.737vw;
+  font-family: CSTM_Xprmntl_02_Italic;
+  margin-top: 2.7vw;
+  text-transform: uppercase;
+}
+.dh3l {
+  font-size: 2.737vw;
+  font-family: CSTM_Xprmntl_02_Italic;
+  margin-top: 2.5vw;
+  margin-left: 40.972vw;
+  text-transform: uppercase;
+}
+.afleft {
+  width: 40vw;
+  margin-top: 1.8vw;
+}
+.afright {
+  width: 40vw;
+  margin-top: 1.8vw;
+  margin-left: 40.972vw;
+}
+.poster1, .poster4 {
+  position: absolute;
+  top: 6.944vw;
+  left: 71.5vw;
+  z-index: 2;
+  width: 24vw;
+}
+.poster2, .poster5 {
+  position: absolute;
+  top: 14vw;
+  left: 52vw;
+  z-index: 1;
+  width: 24vw;
+}
+.poster3 {
+  position: absolute;
+  top: 7vw;
+  left: 7vw;
+  z-index: 1;
+  width: 24vw;
+}
+.date, .date3 {
+  position: absolute;
+  left: 79vw;
+  top: 42.7vw;
+  font-family: Oskal;
+  font-size: 6.25vw;
+  line-height: 100%;
+  color: #B3B3B3;
+}
+.date2 {
+  margin-top: 5vw;
+  font-family: Oskal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6.25vw;
+  line-height: 100%;
+  color: #B3B3B3;
+}
+.buttonaf {
+  position: absolute;
+  top: 37.5vw;
+}
+.buttonaf::after {
+  content: "купить билет";
+  display: block;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 0.972vw;
+}
+.buttonafactive {
+  background: #920000;
+}
+.buttonafactive::after {
+  content: "куплено";
+}
+
+/* for shop page */
+.scrollstrokeleft {
+  display: inline-block;
+  position: fixed;
+  top: 40%;
+  left: 98%;
+  z-index: 3;
+}
+.scrollstrokeleft img {
+    width: 1vw;
+}
+.scrollleft {
+  position: fixed;
+  left: 96%;
+  width: 4%;
+  height: 100%;
+  background: rgb(16,16,16);
+  background: linear-gradient(90deg, rgba(16,16,16,0) 0%, rgba(16,16,16,1) 90%, rgba(16,16,16,1) 100%);
+  z-index: 2;
+}
+.items_a {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+.itempage {
+  margin-right: 6.053vw;
+  width: 18.947vw;
+  height: 28.421vw;
+}
+.shop {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 52.083vw;
+  padding-top: 5.4vw;
+}
+.fakeshop {
+  height: 98vw;
+}
+
+.item {
+  width: 18.947vw;
+  margin-right: 6.053vw;
+}
+.even {
+  margin-top: 6.053vw;
+}
+
+.pic img {
+  width: 18.947vw;
+  /* height: 31.250vw; */
+}
+
+.price {
+  font-family: Mantonico_Light;
+  font-size: 1.25vw;
+  line-height: 16px;
+  color: #B3B3B3;
+  margin-top: 1.042vw;
+}
+
+.cartb {
+  position: relative;
+  width: 10.789vw;
+  height: 2.632vw;
+  margin-top: 1.736vw;
+  font-size: 0.947vw;
+}
+.cartb::after {
+  content: "в корзину";
+  display: block;
+  text-align: center;
+  left: 0;
+  right: 0;
+
+}
+.cartbactive {
+  background: #920000;
+
+}
+.cartbactive::after {
+  content: "добавлено";
+}
+.cartitem {
+  position: absolute;
+  top: 43.229vw;
+  margin-top: auto;
+}
+.cartitem::after {
+  content: "в корзину";
+  display: block;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+.cartitemactive {
+  background: #920000;
+
+}
+.cartitemactive::after {
+  content: "добавлено";
+}
+
+.itemimg {
+  width: 27vw;
+  margin-top: 12vw;
+  display: inline-block;
+}
+.back {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 5.5vw;
+  opacity: .65;
+}
+.back:hover {
+  transition: .5s;
+  opacity: 1;
+}
+.back img {
+  width: 6.250vw;
+}
+.backp {
+  font-family: CSTM_Xprmntl_02_Italic;
+  font-size: 1.944vw;
+  line-height: 1.667vw;
+  color: #B3B3B3;
+  margin-left: 1.042vw;
+  text-decoration: none;
+}
+.itemdesc {
+  display: flex;
+  flex-direction: row;
+}
+.desc2 {
+  margin-top: 12vw;
+  margin-left: 16.667vw;
+}
+.head {
+  font-family: Oskal;
+  text-transform: uppercase;
+}
+.underhead {
+  font-family: Mantonico_Light;
+  text-transform: lowercase;
+  margin-top: 2.083vw;
+  font-size: 2.526vw;
+}
+.fulldesc {
+  width: 43vw;
+  margin-top: 1.8vw;
+  margin-bottom: 3.9vw;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+}
+.list1, .list2 {
+  width: 50%;
+}
+.list2 {
+  margin-left: 1.953vw;
+}
+.list_items {
+  position: absolute;
+  left: 2.604vw;
+  top: 18.229vw;
+  display: flex;
+  flex-direction: row;
+}
+.list_1, .list_2 {
+  display: flex;
+  flex-direction: column;
+}
+.itempage_a {
+  width: 45.573vw;
+  height: 70vw;
+}
+.even_a {
+  margin-top: 40vw;
+}
+.next {
+  margin-top: 44vw;
+}
+.add {
+  font-size: 3.125vw;
+  margin-top: 5.5vw;
+}
+.also {
+  display: flex;
+  flex-direction: row;
+}
+.links {
+  position: absolute;
+  top: 85vw;
+  display: flex;
+  flex-direction: row;
+}
+.links a {
+  width: 29vw;
+  height: 45vw;
+  margin-top: 1.5vw;
+  margin-right: 2.6vw;
+  margin-left: 2.6vw;
+}
+.additem1 {
+  margin-top: 3.5vw;
+  margin-right: 2.6vw;
+  margin-left: 2.6vw;
+}
+.additem1 img{
+  width: 29vw;
+}
+.item a {
+  position: absolute;
+  width: 93.333vw;
+  height: 133.333vw;
+
+}
+/* .mobilelinks {
+  position: absolute;
+  display: block;
+  width: 94.933vw;
+  height: 133.333vw;
+}
+
+.mobilelinks a{
+  width: 94.933vw;
+  height: 133.333vw;
+  display: block;
+} */
+
+/* burger menu for mobile */
+#menu_toggle {
+  opacity: 0;
+}
+.menu_btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 4vw;
+  left: 2.604vw;
+  width: 13.333vw;
+  height: 8vw;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu_btn > span,
+.menu_btn > span::before,
+.menu_btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #B3B3B3;
+}
+.menu_btn > span::before {
+  content: '';
+  top: -3.733vw;
+}
+.menu_btn > span::after {
+  content: '';
+  top: 3.733vw;
+}
+.menu_box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-top: 24vw;
+  list-style: none;
+  background-color: #101010;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+
+.menu_item {
+  margin-bottom: 8vw;
+  display: block;
+  color: #B3B3B3;
+  font-family: Oskal;
+  font-size: 9.6vw;
+  text-decoration: none;
+}
+.downm {
+  margin-top: 90vw;
+}
+.menu_item:hover {
+  background-color: #101010;
+}
+#menu_toggle:checked ~ .menu_btn > span {
+  transform: rotate(45deg);
+}
+#menu_toggle:checked ~ .menu_btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu_toggle:checked ~ .menu_btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu_toggle:checked ~ .menu_box {
+  visibility: visible;
+  left: 0;
+}
+.menu_btn > span,
+.menu_btn > span::before,
+.menu_btn > span::after {
+  transition-duration: .25s;
+}
+.menu_box {
+  transition-duration: .25s;
+}
+.menu_item {
+  transition-duration: .25s;
+}
